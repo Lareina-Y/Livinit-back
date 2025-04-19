@@ -24,3 +24,16 @@ Run the backend:
 ```
 uvicorn main:app --reload
 ```
+
+See the UI in http://127.0.0.1:8000/docs
+
+Example:
+
+POST /recommend
+```
+{
+  "style": "minimalist",
+  "budget": 3500,
+  "prompt": "Incorporate a sectional sofa and a large coffee table in the bohemian-style living room for six people, Under $3500."
+}
+```
