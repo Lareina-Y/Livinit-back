@@ -1,0 +1,26 @@
+# Livinit-back
+
+## Instructions
+
+First, ask the team for credentials to add to your .env file.
+
+```
+# Create .env file from template
+cp .env.example .env
+```
+
+Create a Virtual Environment in Python:
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+
+Install requirements:
+```
+python -m pip install -r requirements.txt
+```
+
+Run the backend:
+```
+uvicorn main:app --reload
+```
