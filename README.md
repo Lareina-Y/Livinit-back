@@ -32,8 +32,9 @@ Example:
 POST /recommend
 ```
 {
+  "room_type": "living room",
   "style": "minimalist",
-  "budget": 3500,
+  "budget": 3000,
   "prompt": "Incorporate a sectional sofa and a large coffee table in the bohemian-style living room for six people, Under $3500."
 }
 ```
